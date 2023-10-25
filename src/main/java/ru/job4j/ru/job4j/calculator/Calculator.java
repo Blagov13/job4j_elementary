@@ -3,7 +3,6 @@ package ru.job4j.ru.job4j.calculator;
 public class Calculator {
     @SuppressWarnings("checkstyle:EmptyLineSeparator")
     public static void main(String[] args) {
-        //int one = 1; (never used)
         int two = 2;
         int six = 6;
         int four = 4;
