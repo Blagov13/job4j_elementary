@@ -5,6 +5,7 @@ public class Point {
         double rsl = Math.sqrt((Math.pow(x2 - x1, 2)) + (Math.pow(y2 - y1, 2)));
         return rsl;
     }
+
     public static void main(String[] args) {
         short x1 = 1;
         short x2 = 2;
