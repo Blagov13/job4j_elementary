@@ -9,8 +9,8 @@ public class Point {
     public static void main(String[] args) {
         short x1 = 1;
         short x2 = 2;
-        short y1 = 1;
-        short y2 = 0;
+        short y1 = 3;
+        short y2 = 4;
         double result = Point.distance(x1, y1, x2, y2);
         System.out.println("result " + "(" + x1 + ", " + y1 + ") " + "(" + x2 + ", " + y2 + ") "  + result);
     }
