@@ -5,7 +5,7 @@ import static org.assertj.core.api.Assertions.*;
 
 public class PointTest {
     @Test
-    void when13to24then141() {
+    void when13to24then1dot41() {
         double expected = 1.41;
         int x1 = 1;
         int y1 = 3;
@@ -16,7 +16,7 @@ public class PointTest {
     }
 
     @Test
-    void when01to23then141() {
+    void when01to23then1dot41() {
         double expected = 1.41;
         int x1 = 0;
         int y1 = 2;
@@ -27,7 +27,7 @@ public class PointTest {
     }
 
     @Test
-    void when40to12then412() {
+    void when40to12then4dot12() {
         double expected = 4.12;
         int x1 = 4;
         int y1 = 1;
