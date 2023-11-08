@@ -18,20 +18,12 @@ public class SimpleStringEncoder {
                 }
             }
         }
-        counter = 0;
-        for (int i = input.length() - 1; i >= 0; i--) {
-            if (input.charAt(i) == input.charAt(input.length() - 1)) {
-                counter++;
-            } else {
-                if (counter <= 1) {
-                    result += input.charAt(input.length() - 1);
-                    break;
-                } else {
-                    result = result + input.charAt(input.length() - 1) + counter;
-                    break;
-                }
-            }
+        if (counter <= 1) {
+            result += input.charAt(input.length() - 1);
+        } else {
+            result = result + input.charAt(input.length() - 1) + counter;
         }
         return result;
     }
 }
+
